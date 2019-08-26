@@ -5,10 +5,11 @@
   },
   "@graph": [
     {
-      "@id": "http://example.com/app#ExampleTemplate",
+      "@id": "http://example.com/app#ConstLowTemplate",
       "@type": "http://example.com/slowmo#EmailTemplate",
-      "name": "Email Template",
-      "slowmo:AssociatedCP": "http://example.com/slowmo#ExampleCausalPathway"
+      "name": "Consistent Low",
+      "slowmo:AssociatedCP": "http://example.com/slowmo#ConsistentLow"
     }
   ]
 }
+

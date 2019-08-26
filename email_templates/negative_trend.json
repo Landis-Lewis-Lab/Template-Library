@@ -5,10 +5,11 @@
   },
   "@graph": [
     {
-      "@id": "http://example.com/app#ExampleTemplate",
+      "@id": "http://example.com/app#NegTrendTemplate",
       "@type": "http://example.com/slowmo#EmailTemplate",
-      "name": "Email Template",
-      "slowmo:AssociatedCP": "http://example.com/slowmo#ExampleCausalPathway"
+      "name": "Neg Trend",
+      "slowmo:AssociatedCP": "http://example.com/slowmo#NegativeTrend"
     }
   ]
 }
+
